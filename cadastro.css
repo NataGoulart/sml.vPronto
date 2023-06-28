@@ -1,0 +1,62 @@
+body
+{
+background-color: rgb(252, 192, 221);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+overflow: hidden;
+
+}
+
+.area-login
+{
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+justify-content: center;
+align-items: center;
+font-size: 15px;/*ALTERAR TAMANHO DA FONTE*/
+}
+.login
+{/*DIV ROSA A MAOIR */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+background-color: rgb(250, 201, 227); /*MUDAR AS COR DO DIV MAIOR*/
+width: 355px;
+height: 500px;/*ALTERA A ALTURA */
+padding: 35px;
+border-radius: 12%;
+
+}
+
+.login form 
+{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+.login input
+{ /*CAMPOS DO CADASTRO*/
+background-color:rgb(247, 139, 196) ;
+margin-top: 10px;/*ESPAÇA AS DIV DE CADA */
+border:  none;
+height: 45px;/*ALTERA A ALTURA DA DIV*/
+outline: none;
+border-radius: 8px;/*ALTERA A BORDA DA DIV*/
+color: aliceblue;
+padding-left: 10px;/*DEIXA AS LETRAS MAIS PARA ESQUERDA OU PARA DIREITA*/
+font-size: 15px;/*ALTERAR TAMANHO DA FONTE*/
+
+}
+.login img
+{
+    width: 300px;/*AUMENTA OU DIMINUE A IMAGEM*/
+    height: auto;
+}
+input::placeholder
+{
+color: aliceblue;
+font-size: 14px;
+
+}
